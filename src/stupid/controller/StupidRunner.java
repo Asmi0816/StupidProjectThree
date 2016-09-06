@@ -1,5 +1,5 @@
 package stupid.controller;
 
-public class StupidStart {
+public class StupidRunner {
 
 }
