@@ -21,8 +21,8 @@ public class StupidController
 		askQuestions();
 	}
 	
+		private void askQuestions()
 		
-	private void askQuestions()
 	{
 		System.out.println("What is your name?");
 		String userInput = readKeyboardInput.nextLine();
