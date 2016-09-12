@@ -24,7 +24,7 @@ public class StupidController
 		private void askQuestions()
 		
 	{
-		System.out.println("What is your name?");
+		System.out.println("What is your name first and last name?");
 		String userInput = readKeyboardInput.nextLine();
 		System.out.println("You said: " + userInput);
 	
@@ -61,22 +61,13 @@ public class StupidController
 		Float newNumber = readKeyboardInput.nextFloat();
 		System.out.println("k now..");
 		
-		System.out.println("Give me a whole number and I will add it to your GPA");
+		System.out.println("Give me a whole number and I will add it to your previous answer");
 		int finalQusetion = readKeyboardInput.nextInt();
 		System.out.println(finalQusetion + newNumber);
 		
 		System.out.println("Did you have fun with this app?");
 		String newValue = readKeyboardInput.nextLine();
-		readKeyboardInput.nextLine();
-		
-		if (newValue == "yes");
-		System.out.println("Good to hear... Be sure to give my app a good word.");
-		readKeyboardInput.nextLine();
-		
-		if (newValue == "no");
-			System.out.println("Thats to bad... And I know where you live...");
-			readKeyboardInput.nextLine();
-		
+		System.out.println("Thanks for saying " + newValue +" Good to hear... Be sure to give my app a good word.");
 		
 		
 		
